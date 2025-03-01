@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mp224}",
+            "name": "Debug mp224",
+            "program": "${workspaceFolder:mp224}/.build/debug/mp224",
+            "preLaunchTask": "swift: Build Debug mp224"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mp224}",
+            "name": "Release mp224",
+            "program": "${workspaceFolder:mp224}/.build/release/mp224",
+            "preLaunchTask": "swift: Build Release mp224"
+        }
+    ]
+}
